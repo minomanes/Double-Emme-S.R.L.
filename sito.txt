@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Emme - Passamanerie, Filati, Gioielli e Abiti da Cerimonia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+        }
+        nav a:hover {
+            background-color: #666;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 2rem;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Double Emme</h1>
+        <p>Passamanerie, Filati, Gioielli e Abiti da Cerimonia</p>
+    </header>
+    <nav>
+        <a href="#about">Chi Siamo</a>
+        <a href="#products">Prodotti</a>
+        <a href="#contact">Contatti</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>Chi Siamo</h2>
+            <p>Double Emme è un negozio specializzato nella vendita di passamanerie, filati, gioielli e abiti da cerimonia. Offriamo prodotti di alta qualità per arricchire ogni occasione speciale.</p>
+        </section>
+        <section id="products">
+            <h2>I Nostri Prodotti</h2>
+            <ul>
+                <li>Passamanerie eleganti</li>
+                <li>Filati pregiati</li>
+                <li>Gioielli raffinati</li>
+                <li>Abiti da cerimonia esclusivi</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contattaci</h2>
+            <p>Email: info@doubleemme.it</p>
+            <p>Telefono: +39 123 456 789</p>
+            <p>Indirizzo: Via Esempio, 10 - Roma</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Double Emme - Tutti i diritti riservati</p>
+    </footer>
+</body>
+</html>
